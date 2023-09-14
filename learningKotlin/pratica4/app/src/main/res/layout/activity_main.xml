@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="#E5f9"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="Linha 1, Coluna 1" />
+
+        <TextView
+            android:id="@+id/text_view2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="#E759"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="Linha 1, Coluna 2" />
+
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="#Ef59"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="Linha 2, Coluna 1" />
+
+        <TextView
+            android:id="@+id/text_view4"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="#E00"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="Linha 2, Coluna 2" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
